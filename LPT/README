@@ -1,0 +1,10 @@
+README to configure LPT port
+
+1) Install LPT on motherboard and make sure that the OS recognize it. Install the drivers as well
+2) Install Win32 drivers for InpOut downloaded from http://www.highrez.co.uk/Downloads/InpOut32; download binaries and then look for the exe
+....\InpOutBinaries_1501\Win32\InstallDriver.exe
+3) Look in the gestionnaire de peripherique for the HEX of the LTP (usually the first one under E/S, like "E010")
+4) Test the LPT with the LPTTestUtility. Make sure that the inpout32.dll is in the same folder. Open the app and enter the HEX adress under LTP X: It should recognize the card
+5) test it with Actiview of BIOSEMI to see if the usb2receiver receivs triggers
+6) If yes, test it with python scripts. Make sure that the psychopy folder of the executable contains the inpout 32 and 64 DLL. Otherwise you get a parallel port error when running the scripts
+

@@ -1,0 +1,263 @@
+[General]
+Version=3.0
+Language=English
+LangID=9
+Charset=0
+FontSize=8
+FontName=Tahoma
+Author=Pantaray
+Date=03-FEB-2006
+AutoDate=03-MAR-2006
+
+[Buttons]
+Back=< &Back
+Next=&Next >
+Cancel=&Cancel
+Finish=&Finish
+Browse=&Browse...
+Resume=&Resume
+ExitSetup=E&xit Setup
+OK=&OK
+Close=&Close
+
+[Extract]
+s0=QSetup Installation Suite
+s1=Extracting Files...
+s2=QSetup will extract files to your Temp Drive (<DRIVE>)<P>
+s3=Limited Free Space on your Temp Drive! (<DRIVE>)<P>
+s4=<P>Estimated space required on your Temp drive is: <T>  <SPACE_REQ> MB<P>
+s5=Free space available on your Temp drive is: <T>  <SPACE_AVAIL> MB<P>
+s6=<P>Continue with Setup?<P>
+s7=Bad CRC!<P>This indicates that your setup file might be corrupted...
+s8=Please insert <B>DISK #<DISK_NUM></B> and press OK to continue
+
+[Split]
+s10=Downloading File...
+s11=<b>INTERNET DOWNLOAD</b><p><p>QSetup will download the Setup File from the Internet...<p>Please make sure your Internet connection is properly set.<p><p>Continue with Setup?<P><P>Size: <SIZE> MB<P>
+s12=No valid Internet Connection.<p>Can not Download File!
+
+[BeforeInstall]
+IsRunningText=<b>PROG_NAME</b> --- is running!<p><p>Please close the program and then click OK to continue with Installation.
+DotNetFramework=<B>PROG_NAME</B> requires .NET Framework<P><P>Please install .NET Framework and run this setup program again
+DownloadDotNetFramework=<B>PROG_NAME</B> requires .NET Framework<P><P>Do you want to download and install .NET Framework?
+PreviousCopy=A previous copy of <B>PROG_NAME</B> is already installed on this PC
+PreviousCopyAbort=A previous copy of <B>PROG_NAME</B> is already installed on this PC<P><P>Setup Aborted!
+PreviousCopyContinue=A previous copy of <B>PROG_NAME</B> is already installed on this PC<P><P>Continue Setup?
+AdminRights=Unable to install the program<P>Make sure you have ADMINISTRATOR Rights on this PC!
+WinVer=<B>PROG_NAME</B> is not allowed to run on <WIN_VER><P><P>Setup Aborted!
+ExpireMsg=Setup of <B>PROG_NAME</B> has expired<P><P>Setup will now abort!
+RunTimeDirMsg=Searching for RunTime Directory --- Please Wait!
+
+[Welcome]
+Caption=Welcome
+s1=Welcome to <b>PROG_NAME</b> Setup program. This program will install <b>PROG_NAME</b> on your computer.<p><p>
+s2=It is strongly recommended that you exit Windows programs before running this Setup program.<p><p>Click <b>Cancel</b> to quit Setup and then close any program you have running. Click <b>Next</b> to continue with this Setup program.<p><p>
+s3=<b>WARNING:</b> This program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under law.
+s4=<b>NOTICE:</b> You are about to install software that integrates advertising technology and will occasionally make use of your internet connection.<p><p>
+
+[License]
+Caption=License Agreement
+Description=License Agreement
+s1=Please read the following license agreement carefully.
+s2=Press the PAGE DOWN key to see the rest of the agreement.
+s3=YES - I Accept the terms of the License Agreement!
+s4=NO - I DO NOT Accept the terms of the License Agreement!
+s5=Do you accept all the terms of the preceding License Agreement?
+s6=To install the program you must accept this agreement!
+
+[Readme]
+Caption=Readme
+Description=Readme
+s1=Readme
+
+[UserInfo]
+Caption=User Information
+Description=User Information
+s1=Type your name.
+s2=Type the name of the company you work for.
+s3=Type your name and the name of the company you work for.
+s4=Type the product serial number.
+s5=Type your name and the product serial number.
+s6=Type the name of the company you work for and the product serial number.
+s7=Type your name, the name of the company you work for and the product serial number.
+s11=Name:
+s12=Company:
+s13=Serial:
+s21=Please enter User Name!
+s22=Please enter Company Name!
+s23=Please enter Serial Number!
+s24=Wrong Serial Number!
+
+[Destination]
+Caption=Choose Destination Location
+Description=Choose Destination Location
+s1=Setup will install <b>PROG_NAME</b> in the following directory.<p><p>To install to this directory, click <b>Next</b>.<p><p>To install to a different directory, click <b>Browse</b> and select another directory.
+s2=Destination Directory
+s3=Space required on drive:
+s4=Space available on drive:
+
+[SetupType]
+Caption=Setup Type
+Description=Setup Type
+s1=Select the type of setup you prefer, then click <b>Next</b>.
+s11=Typical
+s12=Compact
+s13=Custom
+s14=Complete
+s15=Partial
+s21=Program will be installed with the most common options. Recommended for most users.
+s22=Program will be installed with the minimum required options.
+s23=You may choose the options you want to install. Recommended for advanced users.
+s24=The complete program will be installed on your Hard Disk.
+s25=Only some files will be installed on your Hard Disk. You will need the CD every time you run the program.
+
+[Components]
+Caption=Select Components
+Description=Select Components
+s1=Select the components you want to install, clear the components you do not want to install.
+s2=Components:
+s3=Description:
+
+[Associate]
+Caption=Set File Association
+Description=Set File Association
+s1=Setup will associate some file types with <b>PROG_NAME</b>.<p>Select the file types you want to associate, clear the file types you do not want to associate.
+s2=File Types:
+
+[Shortcuts]
+Caption=Set Program Shortcuts
+Description=Set Program Shortcuts
+s1=Setup will add Shortcut to the <b>Start/Program</b> menu.
+s2=You may also add other Shortcuts to your computer.
+s3=Start/Program Menu
+s4=Check for New Update
+s5=Uninstall PROG_NAME
+s6=Shortcuts are available for - Current User
+s7=Shortcuts are available for - All Users
+
+s11=Add Shortcut to the Start Menu
+s12=Create Shortcut on the Desktop
+s13=Add Shortcut to the SendTo Menu
+s14=Add Shortcut to the StartUp Menu
+s15=Add Shortcut to the Quick Launch bar
+
+[Confirm]
+Caption=Confirm Setup Settings
+Description=Confirm Setup Settings
+s1=Setup has enough information to start copying the program files.<p>If you want to review or change any settings, click <b>Back</b>.
+s2=Click NEXT to begin copying files...
+s11=Target Directory:
+s12=Start/Program Menu Entry:
+s13=Start Menu Shortcut:
+s14=Desktop Shortcut:
+s15=SendTo Shortcut:
+s16=StartUp Shortcut:
+s17=Quick Launch Shortcut:
+s30=User Information:
+s31=Name:
+s32=Company:
+
+[CopyFiles]
+Caption=Copying Files
+Description=Copying Files
+File=File:
+Folder=Folder:
+s1=Registering Components...
+
+[Complete]
+Caption=Setup Complete
+s0=Setup has finished copying files to your computer.
+s1=Setup will now launch the program. Select your option below.
+s2=Before you can use the program, you must restart your computer.
+s3=Yes, Launch the program file.
+s4=Restart
+s5=Yes, I want to restart my computer now.
+s6=No, I will restart my computer later.
+s7=Click <b>Finish</b> to complete the Setup.
+s8=Display the Readme file.
+
+[ExitSetup]
+Caption=Exit Setup
+s1=Setup is not complete. If you quit the Setup program now, the program will not be installed.<p><p>You may run the Setup program at a later time to complete the installation.<p><p>To continue installing the program, click Resume. To quit the Setup program, click Exit Setup.
+
+[Messages]
+Caption=Error
+s1=%s<p>File not found!<p><p>Correct the problem and run Setup once again!
+s2=Unable to create directory:<p>%s<p><p>Setup will now close.<p>Correct the problem and run Setup once again!
+s3=Select Destination Directory
+s4=Wrong CheckSum!
+
+[UnInstall]
+Caption=UnInstall
+ConfirmCaption=Confirm
+ConfirmText=Are you sure you want to uninstall the program <b>PROG_NAME?</b>
+IsRunningCaption=Attention
+IsRunningText=<b>PROG_NAME</b> --- is running!<p><p>Please close the program and then click OK to continue with UnInstall.
+AdminRights=Unable to UnInstall the program<P>Make sure you have ADMINISTRATOR Rights on this PC!
+ButtonClose=Close
+ButtonLog=View Log
+s1=UnInstall will remove the software <b>PROG_NAME</b> from your computer. Please wait while each of the following components is removed...
+Label1=Shared program files...
+Label2=Standard program files...
+Label3=Folder items...
+Label4=Program folders...
+Label5=Program directories...
+Label6=Program registry entries...
+s2=UnInstall completed successfully !
+Err1=UnInstall was unable to handle one or more Registry keys
+Err2=UnInstall was unable to handle one or more IniFile entries
+Err3=UnInstall was unable to handle one or more File Association entries
+Err4=UnInstall was unable to remove one or more Directories
+Err5=UnInstall was unable to remove one or more Files
+Err6=UnInstall was unable to execute one or more operations
+Err7=To complete the UnInstall operation, Please handle them manually.
+Err8=To complete the UnInstall operation, Please remove them manually.
+Err9=To complete the UnInstall operation, Please perform them manually.
+
+[MsgBox]
+BtnText=|&OK|&Cancel|&Yes|&No|&Abort|&Retry|&Ignore|
+Error=Error
+Attention=Attention
+Confirm=Confirm
+
+[AutoUpdate]
+s1=<b>INTERNET DOWNLOAD</b><p><p>QSetup will download the Setup File from the Internet...<p>Please make sure your Internet connection is properly set.<p><p>Continue with Setup?<p>
+s2=No valid Internet Connection.<p>Can not Download File!
+s3=File Download Aborted!
+s4=<p><p>File not Found!
+s5=<p><p>Unable to Download File!
+s11=A new Update is available for: <b>PROG_NAME</b><p><p>
+s12=Do you want to Download and Install the new Update?
+s13=Do you want to Download the new Update?
+s14=A new Update is available for: <b>PROG_NAME</b><p><p>Do you want to Install the new Update?
+s15=<b>PROG_NAME</b> is Running!<p><p>The program must be stopped before the update process can proceed.<p><p>Please STOP the program and Press the <b>OK</b> button!
+s16=<b>CONGRATULATIONS</b><p><p><b>PROG_NAME</b> - Has been Successfully Updated!
+s17=<p><p>Do you want to Launch the Application?
+s21=<b>SORRY</b><p><p>No new Update is available!
+s22=<b>NEW UPDATE</b><p><p>QSetup will check if a new update is available for: <b>PROG_NAME</b><p>
+s23=Please make sure your Internet connection is properly set.<p>
+s24=<p>Do you want to check and install the new Update?
+s31=Downloading INFO File...
+s32=Downloading UPDATE File...
+s33=Downloading INFORM File...
+s34=New Version
+s35=Download
+
+[OneOfMany]
+Caption=Select
+
+[InputText]
+Caption=Enter Text
+
+[Autorun]
+Run=Run <b>PROG_NAME?</b>
+
+[NT-Service]
+Caption=NT Service
+s1=CREATING Service:
+s2=REMOVING Service:
+s3=STARTING Service:
+s4=STOPPING Service:
+s5=PAUSING Service:
+s6=CONTINUE Service:
+
